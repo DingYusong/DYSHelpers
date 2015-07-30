@@ -1,0 +1,25 @@
+{
+  "name": "DYSHelpers",
+  "version": "0.1.0",
+  "summary": "A short description of DYSHelpers.",
+  "description": "                       An optional longer description of DYSHelpers\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DYSHelpers",
+  "license": "MIT",
+  "authors": {
+    "丁玉松": "dys90@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DYSHelpers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DYSHelpers": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

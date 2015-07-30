@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EEC1A670318915F462C35E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A6830FB55F69BDE88E58AC /* Foundation.framework */; };
+		1A2CE7F45C64C457681B7679 /* Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 943ED89B3A9726F633C4452C /* Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E90D4DCD65D612B4426A8F /* DYSHelpers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14FBC1039BCCBE122BF67F35 /* DYSHelpers.bundle */; };
+		390B3B45AED0B9BCE826993B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A6830FB55F69BDE88E58AC /* Foundation.framework */; };
+		3EB381460C81CF6C0C0A1B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A6830FB55F69BDE88E58AC /* Foundation.framework */; };
+		3FE7091E3B18D82A743F25B0 /* DYSHelpers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F29B7C4BD5FE687126C82A87 /* DYSHelpers.bundle */; };
+		4BF670EA26E63EA77F762081 /* Pods-DYSHelpers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA475C488FDE8D13592F861B /* Pods-DYSHelpers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5166F35FA09FFE152C375700 /* Pods-DYSHelpers_Tests-DYSHelpers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2768F660BBD82A1BF20415B7 /* Pods-DYSHelpers_Tests-DYSHelpers-dummy.m */; };
+		5635522050873F04AC66BCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A6830FB55F69BDE88E58AC /* Foundation.framework */; };
+		5F56E8952409F9992A9C1C77 /* Pods-DYSHelpers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EC00AD1839F04B104141E3 /* Pods-DYSHelpers_Example-dummy.m */; };
+		6D10EC8383852911A3015AD4 /* Pods-DYSHelpers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E425A5C5A023A602DC618B60 /* Pods-DYSHelpers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E634EC656478F9C83B7034B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3321598E0B8B461A8A0C2D /* ReplaceMe.m */; };
+		94C83479D09EC80B61CDE787 /* Pods-DYSHelpers_Example-DYSHelpers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19368FE981C695115BCC325B /* Pods-DYSHelpers_Example-DYSHelpers-dummy.m */; };
+		9AEAD56CD13AF1D957738DA1 /* Pods-DYSHelpers_Example-DYSHelpers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E20BCA4F8965EC21D96C30D /* Pods-DYSHelpers_Example-DYSHelpers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCB611EBB5620E3F4833057 /* Pods-DYSHelpers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82E0C88A72CE057390EE80 /* Pods-DYSHelpers_Tests-dummy.m */; };
+		E3D4F7CEF33AB006448AFB78 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3321598E0B8B461A8A0C2D /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BEFAD6F50F6CDA7E6F7BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31780B998CFEF9B2561A713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B3293184C092EA872E1EEC;
+			remoteInfo = "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers";
+		};
+		96FAEE674DAFB657B4157D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31780B998CFEF9B2561A713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B1BD9359346AD58721EDBE0;
+			remoteInfo = "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers";
+		};
+		ADDD43CF37665848CE1DCC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31780B998CFEF9B2561A713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767F062CDE2D49AE2EE74172;
+			remoteInfo = "Pods-DYSHelpers_Tests-DYSHelpers";
+		};
+		D530CFD649602C604B95290F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31780B998CFEF9B2561A713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A680781F060E439D8FB6FF51;
+			remoteInfo = "Pods-DYSHelpers_Example-DYSHelpers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071EA843A4DBBB22FE0FD20F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FBC1039BCCBE122BF67F35 /* DYSHelpers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYSHelpers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		19368FE981C695115BCC325B /* Pods-DYSHelpers_Example-DYSHelpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSHelpers_Example-DYSHelpers-dummy.m"; sourceTree = "<group>"; };
+		21DE3A377BB6E9ED162AE9AC /* Pods-DYSHelpers_Tests-DYSHelpers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSHelpers_Tests-DYSHelpers.xcconfig"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers.xcconfig"; sourceTree = "<group>"; };
+		24C23FBEDC2A4F0494750EA3 /* Pods-DYSHelpers_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Example-environment.h"; sourceTree = "<group>"; };
+		26D4CADBDB9A6BFC2758DEB3 /* Pods-DYSHelpers_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Tests-environment.h"; sourceTree = "<group>"; };
+		2768F660BBD82A1BF20415B7 /* Pods-DYSHelpers_Tests-DYSHelpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DYSHelpers_Tests-DYSHelpers-dummy.m"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-dummy.m"; sourceTree = "<group>"; };
+		2E20BCA4F8965EC21D96C30D /* Pods-DYSHelpers_Example-DYSHelpers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Example-DYSHelpers-umbrella.h"; sourceTree = "<group>"; };
+		300199E2E3F923DC3A3D73C9 /* DYSHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYSHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0FA0225C3D158E337BEEE4 /* Pods-DYSHelpers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYSHelpers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F2B343D170539DDD3F018DA /* Pods-DYSHelpers_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSHelpers_Tests-resources.sh"; sourceTree = "<group>"; };
+		431EB4D8BCE6CC0A6A7B4B86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3321598E0B8B461A8A0C2D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5029B7C19174869DDFDB6BA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Info.plist"; sourceTree = "<group>"; };
+		5985C550FCD6E6FDAC5E1EC5 /* Pods-DYSHelpers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B0C493B29B8B14745A9664D /* Pods-DYSHelpers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3EDCCAAEB41E518BDF13F6 /* Pods-DYSHelpers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSHelpers_Tests.modulemap"; sourceTree = "<group>"; };
+		5D7EEB3EF83A58411277747B /* Pods-DYSHelpers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSHelpers_Example-frameworks.sh"; sourceTree = "<group>"; };
+		65562B5C77D9F7A968C46192 /* Pods-DYSHelpers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYSHelpers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AF649C3B0F3B9AAD3ED476E /* Pods-DYSHelpers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYSHelpers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B6ED0C2FDF97901591E39B0 /* DYSHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYSHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig"; sourceTree = "<group>"; };
+		90A6830FB55F69BDE88E58AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		943ED89B3A9726F633C4452C /* Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h"; sourceTree = "<group>"; };
+		95EAF29C5F10C61E04FA1BC1 /* Pods-DYSHelpers_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSHelpers_Example-resources.sh"; sourceTree = "<group>"; };
+		9E82E0C88A72CE057390EE80 /* Pods-DYSHelpers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSHelpers_Tests-dummy.m"; sourceTree = "<group>"; };
+		9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig"; sourceTree = "<group>"; };
+		A3A9C5EC955E3FE8EEBC587D /* Pods-DYSHelpers_Tests-DYSHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-DYSHelpers_Tests-DYSHelpers.modulemap"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers.modulemap"; sourceTree = "<group>"; };
+		A3EB0C1F391E7BB2B83B0755 /* Pods-DYSHelpers_Example-DYSHelpers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Example-DYSHelpers.xcconfig"; sourceTree = "<group>"; };
+		AA475C488FDE8D13592F861B /* Pods-DYSHelpers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BBDF252A713B67295BA735A9 /* Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch"; path = "../Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch"; sourceTree = "<group>"; };
+		BCA62A2F52D0B05FB56B2319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE99E6FF1D4F7C68C3B4734 /* Pods_DYSHelpers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYSHelpers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AC68267FF2D4833AF4D0A1 /* Pods-DYSHelpers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0D1DA076165E2E6A01F308 /* Pods-DYSHelpers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYSHelpers_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CE6A7E0C65D6D7C2937F9BCD /* Pods-DYSHelpers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYSHelpers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8DD0BA9DA1E21D51883E071 /* Pods_DYSHelpers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYSHelpers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425A5C5A023A602DC618B60 /* Pods-DYSHelpers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Example-umbrella.h"; sourceTree = "<group>"; };
+		E54C619E6DB41A6F3D6BA8B2 /* Pods-DYSHelpers_Example-DYSHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSHelpers_Example-DYSHelpers.modulemap"; sourceTree = "<group>"; };
+		EA0A96108414A4E5C2090F10 /* Pods-DYSHelpers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DYSHelpers_Example.modulemap"; sourceTree = "<group>"; };
+		EBA3F5CCA9D1248931BE2A0A /* Pods-DYSHelpers_Example-DYSHelpers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYSHelpers_Example-DYSHelpers-prefix.pch"; sourceTree = "<group>"; };
+		F29B7C4BD5FE687126C82A87 /* DYSHelpers.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYSHelpers.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B6D54D8597C505A9780263 /* Pods-DYSHelpers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYSHelpers_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8EC00AD1839F04B104141E3 /* Pods-DYSHelpers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYSHelpers_Example-dummy.m"; sourceTree = "<group>"; };
+		FBD48B9A849D4764E579D95C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2875600F8264BC378EEE63B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F26EF39094450EBB5A4B242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB381460C81CF6C0C0A1B76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901CD3BA7DB42BBEEF01049E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B3B45AED0B9BCE826993B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74CE457A9B36DB11CEE2414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EEC1A670318915F462C35E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88A4FFE107347B7FF901A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5635522050873F04AC66BCC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2198E4F4A8B6324E93A35EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0758F20DBE5D03B47C18DD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B82F4834B9511FBF05F9CA4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		108B8E6F290897FB99B35E65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A83E4C65132AD74685C743E /* Pods-DYSHelpers_Example */,
+				5AD1732DBCCF45B5FC12E302 /* Pods-DYSHelpers_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5AD1732DBCCF45B5FC12E302 /* Pods-DYSHelpers_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62A2F52D0B05FB56B2319 /* Info.plist */,
+				5C3EDCCAAEB41E518BDF13F6 /* Pods-DYSHelpers_Tests.modulemap */,
+				6AF649C3B0F3B9AAD3ED476E /* Pods-DYSHelpers_Tests-acknowledgements.markdown */,
+				65562B5C77D9F7A968C46192 /* Pods-DYSHelpers_Tests-acknowledgements.plist */,
+				9E82E0C88A72CE057390EE80 /* Pods-DYSHelpers_Tests-dummy.m */,
+				26D4CADBDB9A6BFC2758DEB3 /* Pods-DYSHelpers_Tests-environment.h */,
+				CC0D1DA076165E2E6A01F308 /* Pods-DYSHelpers_Tests-frameworks.sh */,
+				3F2B343D170539DDD3F018DA /* Pods-DYSHelpers_Tests-resources.sh */,
+				AA475C488FDE8D13592F861B /* Pods-DYSHelpers_Tests-umbrella.h */,
+				C4AC68267FF2D4833AF4D0A1 /* Pods-DYSHelpers_Tests.debug.xcconfig */,
+				5985C550FCD6E6FDAC5E1EC5 /* Pods-DYSHelpers_Tests.release.xcconfig */,
+			);
+			name = "Pods-DYSHelpers_Tests";
+			path = "Target Support Files/Pods-DYSHelpers_Tests";
+			sourceTree = "<group>";
+		};
+		5B82F4834B9511FBF05F9CA4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90A6830FB55F69BDE88E58AC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8A83E4C65132AD74685C743E /* Pods-DYSHelpers_Example */ = {
+			isa = PBXGroup;
+			children = (
+				071EA843A4DBBB22FE0FD20F /* Info.plist */,
+				EA0A96108414A4E5C2090F10 /* Pods-DYSHelpers_Example.modulemap */,
+				CE6A7E0C65D6D7C2937F9BCD /* Pods-DYSHelpers_Example-acknowledgements.markdown */,
+				3F0FA0225C3D158E337BEEE4 /* Pods-DYSHelpers_Example-acknowledgements.plist */,
+				F8EC00AD1839F04B104141E3 /* Pods-DYSHelpers_Example-dummy.m */,
+				24C23FBEDC2A4F0494750EA3 /* Pods-DYSHelpers_Example-environment.h */,
+				5D7EEB3EF83A58411277747B /* Pods-DYSHelpers_Example-frameworks.sh */,
+				95EAF29C5F10C61E04FA1BC1 /* Pods-DYSHelpers_Example-resources.sh */,
+				E425A5C5A023A602DC618B60 /* Pods-DYSHelpers_Example-umbrella.h */,
+				5B0C493B29B8B14745A9664D /* Pods-DYSHelpers_Example.debug.xcconfig */,
+				F6B6D54D8597C505A9780263 /* Pods-DYSHelpers_Example.release.xcconfig */,
+			);
+			name = "Pods-DYSHelpers_Example";
+			path = "Target Support Files/Pods-DYSHelpers_Example";
+			sourceTree = "<group>";
+		};
+		958289CFDB2C9131F523CC19 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C3321598E0B8B461A8A0C2D /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E8A36F5FCDED8FE95F40ABA = {
+			isa = PBXGroup;
+			children = (
+				FBD48B9A849D4764E579D95C /* Podfile */,
+				E6863E43A426FC79748A66C7 /* Development Pods */,
+				0758F20DBE5D03B47C18DD1C /* Frameworks */,
+				ABFE0A8D92554AB20F54FA89 /* Products */,
+				108B8E6F290897FB99B35E65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFE0A8D92554AB20F54FA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14FBC1039BCCBE122BF67F35 /* DYSHelpers.bundle */,
+				F29B7C4BD5FE687126C82A87 /* DYSHelpers.bundle */,
+				6B6ED0C2FDF97901591E39B0 /* DYSHelpers.framework */,
+				300199E2E3F923DC3A3D73C9 /* DYSHelpers.framework */,
+				BFE99E6FF1D4F7C68C3B4734 /* Pods_DYSHelpers_Example.framework */,
+				D8DD0BA9DA1E21D51883E071 /* Pods_DYSHelpers_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0E2EE8111C61C5ABA624F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				431EB4D8BCE6CC0A6A7B4B86 /* Info.plist */,
+				5029B7C19174869DDFDB6BA7 /* Info.plist */,
+				E54C619E6DB41A6F3D6BA8B2 /* Pods-DYSHelpers_Example-DYSHelpers.modulemap */,
+				A3EB0C1F391E7BB2B83B0755 /* Pods-DYSHelpers_Example-DYSHelpers.xcconfig */,
+				78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */,
+				19368FE981C695115BCC325B /* Pods-DYSHelpers_Example-DYSHelpers-dummy.m */,
+				EBA3F5CCA9D1248931BE2A0A /* Pods-DYSHelpers_Example-DYSHelpers-prefix.pch */,
+				2E20BCA4F8965EC21D96C30D /* Pods-DYSHelpers_Example-DYSHelpers-umbrella.h */,
+				A3A9C5EC955E3FE8EEBC587D /* Pods-DYSHelpers_Tests-DYSHelpers.modulemap */,
+				21DE3A377BB6E9ED162AE9AC /* Pods-DYSHelpers_Tests-DYSHelpers.xcconfig */,
+				9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */,
+				2768F660BBD82A1BF20415B7 /* Pods-DYSHelpers_Tests-DYSHelpers-dummy.m */,
+				BBDF252A713B67295BA735A9 /* Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch */,
+				943ED89B3A9726F633C4452C /* Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DYSHelpers_Example-DYSHelpers";
+			sourceTree = "<group>";
+		};
+		E6863E43A426FC79748A66C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1D43B890DDF993ED11D27 /* DYSHelpers */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ECA1D43B890DDF993ED11D27 /* DYSHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F539282DA864BDB4BC92DF78 /* Pod */,
+				CC0E2EE8111C61C5ABA624F0 /* Support Files */,
+			);
+			name = DYSHelpers;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F539282DA864BDB4BC92DF78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				958289CFDB2C9131F523CC19 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99A5CD2B6F5A4F78DCBE8050 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D10EC8383852911A3015AD4 /* Pods-DYSHelpers_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24555B88B39C76B40DDBCC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2CE7F45C64C457681B7679 /* Pods-DYSHelpers_Tests-DYSHelpers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BCB2FD9DF2E5A11E7F90AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF670EA26E63EA77F762081 /* Pods-DYSHelpers_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B752937E9318DDE3A075F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEAD56CD13AF1D957738DA1 /* Pods-DYSHelpers_Example-DYSHelpers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5491A6201739BDCE2FBA7AA5 /* Pods-DYSHelpers_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C147310DC6310BF1CD3F67 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example" */;
+			buildPhases = (
+				F62ACCE32F18EFADD9EE577D /* Sources */,
+				901CD3BA7DB42BBEEF01049E /* Frameworks */,
+				99A5CD2B6F5A4F78DCBE8050 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CE13A38936B284570C359E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSHelpers_Example";
+			productName = "Pods-DYSHelpers_Example";
+			productReference = BFE99E6FF1D4F7C68C3B4734 /* Pods_DYSHelpers_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		767F062CDE2D49AE2EE74172 /* Pods-DYSHelpers_Tests-DYSHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD44DB860EB586B24525B80E /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests-DYSHelpers" */;
+			buildPhases = (
+				2680861E73C810ED3EA9374C /* Sources */,
+				4F26EF39094450EBB5A4B242 /* Frameworks */,
+				5696A8B1ADEDDE26FE5A303C /* Resources */,
+				B24555B88B39C76B40DDBCC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ECC383B25F08028CF439FC /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSHelpers_Tests-DYSHelpers";
+			productName = "Pods-DYSHelpers_Tests-DYSHelpers";
+			productReference = 300199E2E3F923DC3A3D73C9 /* DYSHelpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B1BD9359346AD58721EDBE0 /* Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FDA1D7D2791C33B930C9E5 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers" */;
+			buildPhases = (
+				AC51D324CD509203D5A15CF5 /* Sources */,
+				F2198E4F4A8B6324E93A35EF /* Frameworks */,
+				CAA7DC77D768A19A5731110C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers";
+			productName = "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers";
+			productReference = 14FBC1039BCCBE122BF67F35 /* DYSHelpers.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9A71528CCDE41D9679D416A7 /* Pods-DYSHelpers_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8FBE34A9446F13E22265B9 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests" */;
+			buildPhases = (
+				CF4F607E38BA6D5A56387142 /* Sources */,
+				B74CE457A9B36DB11CEE2414 /* Frameworks */,
+				B6BCB2FD9DF2E5A11E7F90AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A85DDD9C129AC0DA6949A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSHelpers_Tests";
+			productName = "Pods-DYSHelpers_Tests";
+			productReference = D8DD0BA9DA1E21D51883E071 /* Pods_DYSHelpers_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A680781F060E439D8FB6FF51 /* Pods-DYSHelpers_Example-DYSHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8426999E9C4C14CD726D6580 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example-DYSHelpers" */;
+			buildPhases = (
+				35702E04694AFEDEF34179B9 /* Sources */,
+				C88A4FFE107347B7FF901A29 /* Frameworks */,
+				9F51AD27F785598791C416EB /* Resources */,
+				FC2B752937E9318DDE3A075F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA016DA92CB1F19CF89BFDF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYSHelpers_Example-DYSHelpers";
+			productName = "Pods-DYSHelpers_Example-DYSHelpers";
+			productReference = 6B6ED0C2FDF97901591E39B0 /* DYSHelpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3B3293184C092EA872E1EEC /* Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B0ADB870FD43DA99532236 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers" */;
+			buildPhases = (
+				958BD2D2DA54B98E5B7C93A6 /* Sources */,
+				2875600F8264BC378EEE63B0 /* Frameworks */,
+				37664F23FA64E7536B7A15FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers";
+			productName = "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers";
+			productReference = F29B7C4BD5FE687126C82A87 /* DYSHelpers.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31780B998CFEF9B2561A713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = EA37C86BE7A01850EC6A2382 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E8A36F5FCDED8FE95F40ABA;
+			productRefGroup = ABFE0A8D92554AB20F54FA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5491A6201739BDCE2FBA7AA5 /* Pods-DYSHelpers_Example */,
+				A680781F060E439D8FB6FF51 /* Pods-DYSHelpers_Example-DYSHelpers */,
+				F3B3293184C092EA872E1EEC /* Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers */,
+				9A71528CCDE41D9679D416A7 /* Pods-DYSHelpers_Tests */,
+				767F062CDE2D49AE2EE74172 /* Pods-DYSHelpers_Tests-DYSHelpers */,
+				7B1BD9359346AD58721EDBE0 /* Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37664F23FA64E7536B7A15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5696A8B1ADEDDE26FE5A303C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E90D4DCD65D612B4426A8F /* DYSHelpers.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51AD27F785598791C416EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE7091E3B18D82A743F25B0 /* DYSHelpers.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA7DC77D768A19A5731110C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2680861E73C810ED3EA9374C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5166F35FA09FFE152C375700 /* Pods-DYSHelpers_Tests-DYSHelpers-dummy.m in Sources */,
+				6E634EC656478F9C83B7034B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35702E04694AFEDEF34179B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C83479D09EC80B61CDE787 /* Pods-DYSHelpers_Example-DYSHelpers-dummy.m in Sources */,
+				E3D4F7CEF33AB006448AFB78 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958BD2D2DA54B98E5B7C93A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51D324CD509203D5A15CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4F607E38BA6D5A56387142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCB611EBB5620E3F4833057 /* Pods-DYSHelpers_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62ACCE32F18EFADD9EE577D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F56E8952409F9992A9C1C77 /* Pods-DYSHelpers_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CE13A38936B284570C359E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSHelpers_Example-DYSHelpers";
+			target = A680781F060E439D8FB6FF51 /* Pods-DYSHelpers_Example-DYSHelpers */;
+			targetProxy = D530CFD649602C604B95290F /* PBXContainerItemProxy */;
+		};
+		23ECC383B25F08028CF439FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers";
+			target = 7B1BD9359346AD58721EDBE0 /* Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers */;
+			targetProxy = 96FAEE674DAFB657B4157D5E /* PBXContainerItemProxy */;
+		};
+		A3A85DDD9C129AC0DA6949A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSHelpers_Tests-DYSHelpers";
+			target = 767F062CDE2D49AE2EE74172 /* Pods-DYSHelpers_Tests-DYSHelpers */;
+			targetProxy = ADDD43CF37665848CE1DCC70 /* PBXContainerItemProxy */;
+		};
+		BA016DA92CB1F19CF89BFDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers";
+			target = F3B3293184C092EA872E1EEC /* Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers */;
+			targetProxy = 84BEFAD6F50F6CDA7E6F7BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12B790D293E58AA1132DCE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5985C550FCD6E6FDAC5E1EC5 /* Pods-DYSHelpers_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Tests/Pods-DYSHelpers_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSHelpers_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17DEEAEC9C0F3BD0146988F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B6D54D8597C505A9780263 /* Pods-DYSHelpers_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Example/Pods-DYSHelpers_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSHelpers_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3211DDE585CCB9D316486320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Pods-DYSHelpers_Example-DYSHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Pods-DYSHelpers_Example-DYSHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3437A471B7E112C030883C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0C493B29B8B14745A9664D /* Pods-DYSHelpers_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Example/Pods-DYSHelpers_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSHelpers_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		487973634C6BC143C0F662FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AC68267FF2D4833AF4D0A1 /* Pods-DYSHelpers_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Tests/Pods-DYSHelpers_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DYSHelpers_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67ADC65E651B49F4EF21FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CFB60AC09C9CF88F1E86369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Pods-DYSHelpers_Example-DYSHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Example-DYSHelpers/Pods-DYSHelpers_Example-DYSHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8850A4EF4644625114337147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSHelpers_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A141BB454830ECBC1D62274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6D044A239572ABCDB144CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DYSHelpers_Tests-DYSHelpers/Pods-DYSHelpers_Tests-DYSHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF5B5B29BC168945DBE5986C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSHelpers_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C92DB6D16BF1B379BD30A829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F542EC10C4A11972A0BD47D /* Pods-DYSHelpers_Tests-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSHelpers_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F47E53F66D1BD1DD2965E64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D0A65DD5B5DF07774C4721 /* Pods-DYSHelpers_Example-DYSHelpers-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DYSHelpers_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DYSHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F5BC3876E425EAD3D20A2839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C147310DC6310BF1CD3F67 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3437A471B7E112C030883C32 /* Debug */,
+				17DEEAEC9C0F3BD0146988F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FDA1D7D2791C33B930C9E5 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests-DYSHelpers-DYSHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DB6D16BF1B379BD30A829 /* Debug */,
+				8850A4EF4644625114337147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8426999E9C4C14CD726D6580 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example-DYSHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFB60AC09C9CF88F1E86369 /* Debug */,
+				3211DDE585CCB9D316486320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8FBE34A9446F13E22265B9 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487973634C6BC143C0F662FC /* Debug */,
+				12B790D293E58AA1132DCE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B0ADB870FD43DA99532236 /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Example-DYSHelpers-DYSHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5B5B29BC168945DBE5986C /* Debug */,
+				F47E53F66D1BD1DD2965E64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD44DB860EB586B24525B80E /* Build configuration list for PBXNativeTarget "Pods-DYSHelpers_Tests-DYSHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D044A239572ABCDB144CEC /* Debug */,
+				67ADC65E651B49F4EF21FD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA37C86BE7A01850EC6A2382 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141BB454830ECBC1D62274F /* Debug */,
+				F5BC3876E425EAD3D20A2839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31780B998CFEF9B2561A713 /* Project object */;
+}

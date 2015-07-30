@@ -1,0 +1,14 @@
+PODS:
+  - DYSHelpers (0.1.0)
+
+DEPENDENCIES:
+  - DYSHelpers (from `../`)
+
+EXTERNAL SOURCES:
+  DYSHelpers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DYSHelpers: d495a8068e8e757eee72e4d882d090a7af523329
+
+COCOAPODS: 0.37.2

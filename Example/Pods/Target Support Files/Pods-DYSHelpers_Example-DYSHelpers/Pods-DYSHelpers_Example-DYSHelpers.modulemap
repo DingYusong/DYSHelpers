@@ -1,0 +1,6 @@
+framework module DYSHelpers {
+  umbrella header "Pods-DYSHelpers_Example-DYSHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}
