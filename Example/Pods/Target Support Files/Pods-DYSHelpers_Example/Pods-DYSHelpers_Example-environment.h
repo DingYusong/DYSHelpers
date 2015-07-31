@@ -6,6 +6,12 @@
 // project.
 
 
+// DYSCategories
+#define COCOAPODS_POD_AVAILABLE_DYSCategories
+#define COCOAPODS_VERSION_MAJOR_DYSCategories 0
+#define COCOAPODS_VERSION_MINOR_DYSCategories 1
+#define COCOAPODS_VERSION_PATCH_DYSCategories 0
+
 // DYSHelpers
 #define COCOAPODS_POD_AVAILABLE_DYSHelpers
 #define COCOAPODS_VERSION_MAJOR_DYSHelpers 0

@@ -6,22 +6,24 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+#--sources='https://github.com/DingYusong/DYSPecs.git,https://github.com/CocoaPods/Specs'
 
 Pod::Spec.new do |s|
+
   s.name             = "DYSHelpers"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DYSHelpers."
+  s.summary          = "DYSHelpers."
   s.description      = <<-DESC
-                       An optional longer description of DYSHelpers
+                       DYSHelpers
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DYSHelpers"
+  s.homepage         = "https://github.com/DingYusong/DYSHelpers"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "丁玉松" => "dys90@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DYSHelpers.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DingYusong/DYSHelpers.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,5 +36,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+
+    s.dependency 'DYSCategories','~> 0.1.0'
 end

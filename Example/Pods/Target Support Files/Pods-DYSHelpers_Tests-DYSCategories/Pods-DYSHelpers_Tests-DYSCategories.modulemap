@@ -1,0 +1,6 @@
+framework module DYSCategories {
+  umbrella header "Pods-DYSHelpers_Tests-DYSCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

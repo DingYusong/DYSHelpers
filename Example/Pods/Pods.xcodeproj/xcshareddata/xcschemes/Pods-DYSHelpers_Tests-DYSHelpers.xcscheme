@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "767F062CDE2D49AE2EE74172"
+               BlueprintIdentifier = "796BC311B9F9DBC275265442"
                BuildableName = "DYSHelpers.framework"
                BlueprintName = "Pods-DYSHelpers_Tests-DYSHelpers"
                ReferencedContainer = "container:Pods.xcodeproj">

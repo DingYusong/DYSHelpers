@@ -1,5 +1,7 @@
 PODS:
-  - DYSHelpers (0.1.0)
+  - DYSCategories (0.1.0)
+  - DYSHelpers (0.1.0):
+    - DYSCategories (~> 0.1.0)
 
 DEPENDENCIES:
   - DYSHelpers (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DYSHelpers: d495a8068e8e757eee72e4d882d090a7af523329
+  DYSCategories: 671af553fc5af000d73024ce97a294f26ac796ab
+  DYSHelpers: d228de60b3da9c003958eb9505ab596996a64fe8
 
 COCOAPODS: 0.37.2

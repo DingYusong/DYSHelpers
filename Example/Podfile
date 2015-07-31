@@ -1,4 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/DingYusong/DYSPecs.git'
+
 use_frameworks!
 
 target 'DYSHelpers_Example', :exclusive => true do
@@ -7,6 +9,5 @@ end
 
 target 'DYSHelpers_Tests', :exclusive => true do
   pod "DYSHelpers", :path => "../"
-
   
 end
