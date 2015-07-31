@@ -11,7 +11,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "DYSHelpers"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "DYSHelpers."
   s.description      = <<-DESC
                        DYSHelpers
@@ -38,5 +38,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
 
 
-    s.dependency 'DYSCategories','~> 0.1.0'
+    s.dependency 'DYSCategories'
+
 end
